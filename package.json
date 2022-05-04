@@ -1,0 +1,23 @@
+{
+  "name": "ApiTestUsersRegisters",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Samukera/ApiTestUsersRegisters.git",
+  "author": "Samuel Rech Cassanego <samuelcassanego@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js --ignore __tests__",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "jest": "^28.0.3",
+    "nodemon": "^2.0.16",
+    "sequelize-cli": "^6.4.1"
+  }
+}
